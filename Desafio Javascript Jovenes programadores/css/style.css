@@ -1,0 +1,22 @@
+body{
+    margin: 0%;
+}
+
+header{
+    background-color: #7fffd4;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+.tabla{
+    
+}
+
+.tabla, th, td{
+    margin: auto;
+    border: 1px solid;
+}
