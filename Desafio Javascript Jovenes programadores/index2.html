@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de notas</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <section class="intro">
+        <div>
+            <h1>Calculo de notas</h1>
+        </div>
+        <div>
+            <p>La página tiene como objetivo generar un informe estadístico que muestre los resultados obtenidos a lo largo del semestre o año.</p>
+            <p>Para comenzar, se le pedira rellenar la siguiente informacion la cual sera usada para realizar el informe final</p>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <form id="miFormulario" action="notas.html" method="get" onsubmit="return validarFormulario()">
+                <label for="">Establecimiento:</label>
+                <input type="text" id="establecimiento" name="establecimiento" required>
+                <label for="">Curso:</label>
+                <input type="text" id="curso" name="curso" required>
+                <label for="">Asignatura:</label>
+                <input type="text" id="asignatura" name="asignatura" required>
+                <label for="">Profesor:</label>
+                <input type="text" id="profesor" name="profesor" required>
+                <label for="">Cantidad de notas:</label>
+                <input type="text" id="notas" name="notas" required>
+                <button type="submit" >Continuar</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <script src="js/funcion2.js"></script> 
+</body>
+</html>

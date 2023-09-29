@@ -1,0 +1,42 @@
+body{
+    margin: 0%;
+    background-color: aquamarine;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-style: double;
+    border-color: black;
+    padding: 20px; 
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px; 
+}
+
+input {
+    margin-bottom: 15px; 
+}
+
+button {
+    margin-top: 10px; 
+}
